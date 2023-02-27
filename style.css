@@ -1,0 +1,1300 @@
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+
+
+body {
+    /*Box model stuff*/
+    width: 1366px;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-custom-1 {
+    /*Box model stuff*/
+    background-color: #F6F5F4;
+}
+
+*,
+::after,
+::before {
+    /*Miscellaneous*/
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Dela;
+    src: url(fonts/DelaGothicOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mont;
+    src: url(fonts/montserrat-regular-webfont.woff);
+}
+
+/**Navigation Bar 1**/
+
+nav {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*Box model stuff*/
+    height: 84px;
+    background-color: #F6F5F4;
+    /*Miscellaneous*/
+    box-shadow: solid 0px -1px 0px #f6f5f4;
+}
+
+.header {
+    /*Display stuff*/
+    display: flex;
+    align-items: center;
+    /*Box model stuff*/
+    margin: auto;
+}
+
+.header1 {
+    /*Display stuff*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*Box model stuff*/
+    width: 1180px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.drop {
+    /*Display stuff*/
+    display: inline-block;
+    /*Positioning stuff*/
+    position: relative;
+}
+
+.drop1 {
+    /*Display stuff*/
+    display: flex;
+    /*Box model stuff*/
+    border: none;
+    background-color: #F6F5F4;
+    /*Typography stuff*/
+    font-size: 16px;
+
+}
+
+.vector {
+    /*Box model stuff*/
+    margin-top: 20.61px;
+}
+
+.dropcontent {
+    /*Display stuff*/
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    /*Positioning stuff*/
+    position: absolute;
+    left: 45px;
+    z-index: 1;
+    /*Box model stuff*/
+    width: 216px;
+    min-width: 160px;
+    height: 92px;
+    padding: 20px;
+    border-radius: 14px;
+    background-color: white;
+    /*Miscellaneous*/
+    gap: 20px;
+    box-shadow: 0px 343.472px 343.472px rgba(52, 41, 39, 0.08), 0px 183.185px 183.185px rgba(52, 41, 39, 0.12), 0px 91.5925px 91.5925px rgba(52, 41, 39, 0.04), 0px 68.6944px 68.6944px rgba(52, 41, 39, 0.04), 0px 11.4491px 68.6944px rgba(52, 41, 39, 0.04), 0px 11.4491px 11.4491px rgba(52, 41, 39, 0.04);
+}
+
+.drop>a {
+    /*Display stuff*/
+    display: block;
+    /*Box model stuff*/
+    padding: 12px 16px;
+    /*Typography stuff*/
+    text-decoration: none;
+}
+
+.dropcontent>a:hover {
+    /*Typography stuff*/
+    color: #000000;
+}
+
+.drop:hover>.dropcontent {
+    /*Display stuff*/
+    display: block;
+}
+
+.drop:hover>.drop1 {
+    /*Box model stuff*/
+    background-color: #F6F5F4;
+}
+
+.globaltalk {
+    /*Typography stuff*/
+    font-family: Dela;
+    font-size: 20.8609px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+    /*Miscellaneous*/
+    letter-spacing: -0.02em;
+    line-height: 100%;
+}
+
+.globaltalk:hover {
+    /*Typography stuff*/
+    color: black;
+}
+
+.vertline {
+    /*Box model stuff*/
+    width: 0px;
+    height: 16.87px;
+    margin-left: 30px;
+    border: 1.2px solid #E0E0E0;
+}
+
+.a>a {
+    /*Box model stuff*/
+    margin-left: 30px;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #757575;
+    /*Miscellaneous*/
+    line-height: 140%;
+}
+
+.a>a::after {
+    /*Positioning stuff*/
+    position: relative;
+    left: 0;
+    bottom: -2px;
+    /*Box model stuff*/
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+    /*Manipulations stuff*/
+    transition: all 0.2s;
+}
+
+.a>a:hover {
+    /*Typography stuff*/
+    color: black;
+}
+
+.a>a:hover::after {
+    /*Box model stuff*/
+    width: 100%;
+}
+
+.games {
+    /*Display stuff*/
+    display: flex;
+    align-items: center;
+    /*Positioning stuff*/
+    position: relative;
+    /*Box model stuff*/
+    margin-left: 10px;
+    margin-top: 2px;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #757575;
+}
+
+
+.games:hover {
+    /*Typography stuff*/
+    color: black;
+    border-bottom-color:black;
+}
+
+.games:hover::after {
+    /*Box model stuff*/
+    width: 100%;
+}
+
+.drop {
+    /*Display stuff*/
+    display: inline-block;
+    /*Positioning stuff*/
+    position: relative;
+}
+
+.drop1 {
+    /*Display stuff*/
+    display: flex;
+    /*Box model stuff*/
+    border: none;
+    background-color: #F6F5F4;
+    /*Typography stuff*/
+    font-size: 16px;
+
+}
+
+.vector {
+    /*Box model stuff*/
+    margin-top: 20.61px;
+}
+
+.dropcontent {
+    /*Display stuff*/
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    
+    /*Box model stuff*/
+    width: 216px;
+    height: 92px;
+    padding: 20px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    /*Miscellaneous*/
+    box-sizing: content-box;
+    gap: 20px;
+    box-shadow: 0px 343.472px 343.472px rgba(52, 41, 39, 0.08), 0px 183.185px 183.185px rgba(52, 41, 39, 0.12), 0px 91.5925px 91.5925px rgba(52, 41, 39, 0.04), 0px 68.6944px 68.6944px rgba(52, 41, 39, 0.04), 0px 11.4491px 68.6944px rgba(52, 41, 39, 0.04), 0px 11.4491px 11.4491px rgba(52, 41, 39, 0.04);
+}
+
+.drop a {
+    /*Display stuff*/
+    display: block;
+    /*Box model stuff*/
+    padding: 12px 16px;
+    /*Typography stuff*/
+    text-decoration: none;
+}
+
+.dropcontent a:hover {
+    /*Typography stuff*/
+    color: #000000;
+}
+
+.drop:hover .dropcontent {
+    /*Display stuff*/
+    display: block;
+}
+
+.drop:hover .drop1 {
+    /*Box model stuff*/
+    background-color: #F6F5F4;
+}
+
+.audiocall {
+    /*Positioning stuff*/
+    z-index: 1;
+    /*Box model stuff*/
+    margin-bottom: 20px;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #828282;
+}
+
+.sprint {
+    /*Positioning stuff*/
+    z-index: 1;
+    /*Box model stuff*/
+    padding-left: 20px;
+    padding-top: 20px;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #828282;
+}
+
+
+.header2 {
+    /*Display stuff*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*Box model stuff*/
+    margin-left: auto;
+}
+
+.profile {
+    /*Display stuff*/
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    /*Box model stuff*/
+    width: 41px;
+    height: 40px;
+    padding: 9px 14px;
+    border: 0;
+    border-radius: 100px;
+    background: #C3DCE3;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #2B788B;
+    /*Miscellaneous*/
+    gap: 14px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+}
+
+.alex {
+    /*Display stuff*/
+    align-items: center;
+    justify-content: center;
+    /*Box model stuff*/
+    margin-left: 10px;
+    margin-top: 15.9px;
+    /*Typography stuff*/
+    font-family: Mont;
+    color: #757575;
+}
+
+.signouta {
+    /*Box model stuff*/
+    width: 82px;
+    height: 16px;
+    background-color: #F6F5F4;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+
+
+.signouta:hover {
+    /*Typography stuff*/
+    color: #757575;
+}
+
+.signoutbtn {
+    /*Box model stuff*/
+    margin-left: 30px;
+    border: none;
+    background-color: #F6F5F4;
+}
+
+/**Line between**/
+
+.horizonline {
+    /*Positioning stuff*/
+    z-index: 2;
+    /*Box model stuff*/
+    width: 100%;
+    height: 1px;
+}
+
+/**Navigation Bar 2**/
+
+.navbar {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*Box model stuff*/
+    width: 990px;
+    height: 84px;
+    border-radius: 14px;
+    background-color: white;
+    /*Miscellaneous*/
+    box-sizing: border-box;
+}
+
+.textbook1,
+.dictionary {
+    /*Display stuff*/
+    align-items: center;
+    /*Box model stuff*/
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.icon {
+    /*Display stuff*/
+    align-items: center;
+    /*Box model stuff*/
+    margin-bottom: 10px;
+    margin-left: 22px;
+}
+
+.vertline2 {
+    /*Box model stuff*/
+    width: 0;
+    height: 32px;
+    margin-left: 20px;
+    border: 1.21942px solid #E0E0E0;
+}
+
+.textbook3,
+.dictionary2 {
+    /*Box model stuff*/
+    margin-left: 12px;
+    /*Typography stuff*/
+    font-family: Dela;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    color: #757575;
+    /*Miscellaneous*/
+    line-height: 100%;
+    letter-spacing: -0.04em;
+}
+
+.textbook2,
+.dictionary1 {
+    /*Display stuff*/
+    align-items: center;
+    /*Typography stuff*/
+    text-decoration: none;
+}
+
+button>.textbook1::after {
+    /*Positioning stuff*/
+    position: relative;
+    left: 0;
+    bottom: -2px;
+    /*Box model stuff*/
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+    /*Manipulations stuff*/
+    transition: all 0.2s;
+}
+
+button>a>.dictionary1::after {
+    /*Positioning stuff*/
+    position: relative;
+    left: 0;
+    bottom: -2px;
+    /*Box model stuff*/
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+    /*Manipulations stuff*/
+    transition: all 0.2s;
+}
+
+button>.textbook1:hover {
+    /*Typography stuff*/
+    color: black;
+}
+
+button>.dictionary1:hover {
+    /*Typography stuff*/
+    color: black;
+}
+
+button>.textbook1:hover::after {
+    /*Box model stuff*/
+    width: 100%;
+}
+
+button>.dictionary1:hover::after {
+    /*Box model stuff*/
+    width: 100%;
+}
+
+
+.navbar2 {
+    /*Display stuff*/
+    display: flex;
+    align-items: center;
+    /*Positioning stuff*/
+    position: absolute;
+    /*Box model stuff*/
+    border-radius: 14px;
+    /*Miscellaneous*/
+    box-sizing: border-box;
+}
+
+.bg-custom_2 {
+    /*Box model stuff*/
+    width: 146px;
+    height: 44px;
+    border-radius: 14px;
+    background-color: #F2D4DC;
+}
+
+.sprintpng {
+    /*Box model stuff*/
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+}
+
+.sprinta {
+    /*Positioning stuff*/
+    position: absolute;
+    /*Box model stuff*/
+    margin-left: 9px;
+    margin-top: 14px;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    color: #945069;
+    /*Miscellaneous*/
+    line-height: 100%;
+    letter-spacing: -0.04em;
+
+}
+
+.sprinta:hover,
+.audiocalla:hover {
+    /*Typography stuff*/
+    color: #F6F5F4;
+}
+
+.bg-custom_3 {
+    /*Box model stuff*/
+    width: 178px;
+    height: 44px;
+    border-radius: 14px;
+    background-color: #C3DCE3;
+}
+
+.audiocallpng {
+    /*Box model stuff*/
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+}
+
+.audiocalla {
+    /*Positioning stuff*/
+    position: absolute;
+    /*Box model stuff*/
+    margin-left: 9px;
+    margin-top: 14px;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    color: #2B788B;
+    /*Miscellaneous*/
+    line-height: 100%;
+    letter-spacing: -0.04em;
+}
+
+.navbar4 {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*Box model stuff*/
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.bg-custom_4 {
+    /*Box model stuff*/
+    border-radius: 4px;
+    background-color: #F6F5F4;
+}
+
+.navbarright {
+    /*Box model stuff*/
+    padding-left: -10px;
+}
+
+/**Navigation bar 3**/
+
+.navlvl {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: row;
+}
+
+.diva1,
+.diva2,
+.divb1,
+.divb2,
+.divc1,
+.divc2 {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*Box model stuff*/
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+.btna1,
+.btna2,
+.btnb1,
+.btnb2,
+.btnc1,
+.btnc2 {
+    /*Box model stuff*/
+    height: 26px;
+    margin-left: 12.5px;
+    border: none;
+    border-radius: 4px;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    /*Miscellaneous*/
+    letter-spacing: -0.04em;
+    line-height: 140%;
+}
+
+.aa1,
+.aa2,
+.ab1,
+.ab2,
+.ac1,
+.ac2 {
+    /*Typography stuff*/
+    text-decoration: none;
+    color: #757575;
+}
+
+.aa1:hover,
+.aa2:hover,
+.ab1:hover,
+.ab2:hover,
+.ac1:hover,
+.ac2:hover {
+    /*Typography stuff*/
+    color: black;
+}
+
+.h1a1,
+.h1a2,
+.h1b1,
+.h1b2,
+.h1c1,
+.h1c2 {
+    /*Typography stuff*/
+    font-family: Dela;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    /*Miscellaneous*/
+    line-height: 100%;
+    letter-spacing: -0.04em;
+
+}
+
+.btna1,
+.btna2 {
+    /*Box model stuff*/
+    background: rgba(99, 155, 109, 0.3);
+    /*Typography stuff*/
+    color: #639B6D;
+
+}
+
+.btna1:hover,
+.btna2:hover {
+    /*Box model stuff*/
+    background: #639B6D;
+    /*Typography stuff*/
+    color: white;
+}
+
+.btnb1,
+.btnb2 {
+    /*Box model stuff*/
+    background: rgba(196, 162, 76, 0.3);
+    /*Typography stuff*/
+    color: #C4a24c;
+}
+
+.btnb1:hover,
+.btnb2:hover {
+    /*Box model stuff*/
+    background: #C4a24c;
+    /*Typography stuff*/
+    color: white;
+}
+
+.btnc1,
+.btnc2 {
+    /*Box model stuff*/
+    background: rgba(203, 91, 67, 0.3);
+    /*Typography stuff*/
+    color: #Cb5b43;
+}
+
+.btnc1:hover,
+.btnc2:hover {
+    /*Box model stuff*/
+    background: #cb5b43;
+    /*Typography stuff*/
+    color: white;
+}
+
+
+.home,
+.textbook,
+.stats {
+    /*Positioning stuff*/
+    position: relative;
+    /*Box model stuff*/
+    border: none;
+    background-color: #f8f8f8;
+    /*Typography stuff*/
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    /*Miscellaneous*/
+    cursor: pointer;
+}
+
+.home::before,
+.textbook::before,
+.stats::before {
+    /*Display stuff*/
+    content: '';
+    /*Positioning stuff*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /*Box model stuff*/
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    /*Manipulations stuff*/
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.home:hover::before,
+.textbook:hover::before,
+.stats:hover::before {
+    /*Manipulations stuff*/
+    transform: scaleX(1);
+}
+
+.games,
+.sprint,
+.audiocall {
+    /*Positioning stuff*/
+    position: relative;
+    /*Box model stuff*/
+    border: none;
+    /*Typography stuff*/
+    font-size: 16px;
+    font-weight: normal;
+    color: #797979;
+    /*Miscellaneous*/
+    cursor: pointer;
+}
+
+.games::before,
+.sprint::before,
+.audiocall::before {
+    /*Display stuff*/
+    content: '';
+    /*Positioning stuff*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /*Box model stuff*/
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    /*Manipulations stuff*/
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.games:hover::before,
+.sprint:hover::before,
+.audiocall:hover::before {
+    /*Manipulations stuff*/
+    transform: scaleX(1);
+}
+
+
+.konteineri {
+    /*Display stuff*/
+    display: block;
+    display: flex;
+    justify-content: center;
+    /*Box model stuff*/
+    width: 923px;
+    height: 336px;
+    margin-left: 242px;
+    margin-top: 40px;
+    border-radius: 14px;
+    background: white;
+    /*Miscellaneous*/
+    box-shadow: 0px 22.8981px 45.7963px -11.4491px rgba(52, 41, 39, 0.08);
+}
+
+.img1 {
+    /*Display stuff*/
+    display: block;
+    /*Box model stuff*/
+    margin: 0;
+    border-radius: 14px;
+
+}
+
+.box2 {
+    /*Box model stuff*/
+    margin-left: 40px;
+}
+
+.box3 {
+    /*Display stuff*/
+    display: flex;
+    /*Box model stuff*/
+    margin-top: 40px;
+}
+
+.heading1 {
+    /*Typography stuff*/
+    font-family: Dela;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    /*Miscellaneous*/
+    line-height: 100%;
+    letter-spacing: -0.04em;
+}
+
+.greysecond {
+    /*Typography stuff*/
+    font-family: Dela;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    color: #757575;
+    /*Miscellaneous*/
+    line-height: 100%;
+    letter-spacing: -0.04em;
+}
+
+.greyseconddiv {
+    /*Display stuff*/
+    align-items: center;
+    justify-content: center;
+    /*Box model stuff*/
+    width: 40px;
+    height: 40px;
+    margin-left: 218px;
+    margin-top: 5px;
+    border-radius: 4px
+}
+
+background: #F6F5F4;
+
+.transcript {
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    /*Miscellaneous*/
+    line-height: 140%;
+    letter-spacing: 0.04em;
+}
+
+.compoundbtn {
+    /*Display stuff*/
+    align-items: center;
+    justify-content: center;
+    /*Box model stuff*/
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+    border: 1px solid #CB5B43;
+    border-radius: 4px;
+    background: #CB5B43;
+}
+
+.box4 {
+    /*Display stuff*/
+    display: flex;
+    /*Box model stuff*/
+    margin-top: 21.5px;
+}
+
+.compound {
+    /*Display stuff*/
+    align-items: center;
+    justify-content: center;
+    /*Typography stuff*/
+    color: #f6f5f4;
+}
+
+.parag1 {
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #757575;
+    /*Miscellaneous*/
+    letter-spacing: -0.04em;
+}
+
+.hr1 {
+    /*Box model stuff*/
+    width: 516px;
+    margin: 1px;
+    border: 1.21942px solid #E0E0E0;
+    border: none;
+}
+
+
+.box5 {
+    /*Box model stuff*/
+    margin-right: 33px;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #00000;
+    /*Miscellaneous*/
+    letter-spacing: -0.04em;
+}
+
+.addbtn {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*Box model stuff*/
+    width: 156px;
+    height: 40px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    background: #639B6D;
+
+}
+
+.addtext {
+    /*Display stuff*/
+    display: flex;
+    align-items: center;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    color: #F6F5F4;
+    /*Miscellaneous*/
+    line-height: 100%;
+    letter-spacing: -0.04em;
+}
+
+.box7 {
+    /*Display stuff*/
+    display: flex;
+    /*Box model stuff*/
+    margin-top: 20px;
+}
+
+.removebtn {
+    /*Display stuff*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*Box model stuff*/
+    width: 230px;
+    height: 40px;
+    margin-left: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    background: rgba(203, 91, 67, 0.3);
+}
+
+.removetext {
+    /*Display stuff*/
+    display: flex;
+    align-items: center;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    color: #CB5B43;
+    /*Miscellaneous*/
+    line-height: 100%;
+    letter-spacing: -0.04em;
+}
+
+.addtext::after {
+    /*Positioning stuff*/
+    position: relative;
+    left: 0;
+    bottom: -2px;
+    /*Box model stuff*/
+    width: 0%;
+    height: 2px;
+    background-color: #FFFFFF;
+    /*Manipulations stuff*/
+    transition: all 0.2s;
+}
+
+.addtext:hover {
+    /*Box model stuff*/
+    color:#639B6D;
+}
+
+.add{text-decoration:none;}
+.remove{text-decoration:none;}
+
+.removetext::after {
+    /*Positioning stuff*/
+    position: relative;
+    left: 0;
+    bottom: -2px;
+    /*Box model stuff*/
+    width: 0%;
+    height: 2px;
+    background-color: #FFFFFF;
+    /*Manipulations stuff*/
+    transition: all 0.2s;
+}
+
+/*Box model stuff*/
+.removetext:hover::after {
+    width: 100%;
+}
+
+
+.removetext:hover {
+    /*Typography stuff*/
+    color: rgb(255, 255, 255);
+    background: #cb5b43;
+}
+
+
+.addbtn:hover {
+    /*Box model stuff*/
+    background: rgba(99, 155, 109, 0.3);;
+
+}
+
+.addbtn:hover::after {
+    /*Box model stuff*/
+    width: 100%;
+}
+
+.removebtn:hover {
+    /*Box model stuff*/
+    background: #cb5b43;
+}
+
+
+.pagination {
+    /*Display stuff*/
+    display: flex;
+    justify-content: center;
+    /*Box model stuff*/
+    margin-top: 40px;
+}
+
+.pagination ul {
+    /*Display stuff*/
+    display: flex;
+    /*Box model stuff*/
+    margin: 0;
+    padding: 0;
+    /*Miscellaneous*/
+    list-style: none;
+}
+
+.pagination li {
+    /*Box model stuff*/
+    margin: 26px;
+}
+
+.pagination a {
+    /*Display stuff*/
+    display: flex;
+    /*Typography stuff*/
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    /*Miscellaneous*/
+    line-height: 100%;
+    letter-spacing: -0.04em;
+}
+
+.pagination a:hover {
+    /*Typography stuff*/
+    color: #F6F5F4;
+}
+
+.pagination .botbtn .libtn {
+    /*Box model stuff*/
+    width: 40px;
+    height: 40px;
+    border: 2px solid #2B788B;
+    border-radius: 100px;
+    /*Typography stuff*/
+    color: #2B788B;
+
+}
+
+.libtn:hover {
+    /*Box model stuff*/
+    background: #2B788B;
+    /*Typography stuff*/
+    color: #f6f5f4;
+}
+
+.libtn:hover::after {
+    /*Box model stuff*/
+    width: 100%;
+}
+
+.pbtn {
+    /*Display stuff*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*Box model stuff*/
+    margin-top: 9px;
+}
+
+.pbtn:hover {
+    /*Typography stuff*/
+    color: #F6F5F4;
+}
+
+.pbtn:hover::after {
+    /*Box model stuff*/
+    width: 100%;
+}
+
+/*Box model stuff*/
+.larr {
+    margin-top: 10px;
+}
+
+
+/*Box model stuff*/
+.rarr {
+    margin-top: 10px;
+}
+.rarr:hover{
+    color:#f6f5f4;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #757575;
+    text-decoration: none;
+    padding-right: 10px;
+    transition: border-bottom-color 0.2s ease-in-out;
+    animation: border-bottom-color alternate;
+    border-bottom: 2px solid transparent;
+}
+
+
+.footer_a::after {
+    /*Positioning stuff*/
+    position: relative;
+    left: 0;
+    bottom: -2px;
+    /*Box model stuff*/
+    width: 0%;
+    height: 2px;
+    background-color: #000000;
+    /*Manipulations stuff*/
+    transition: all 0.2s;
+}
+
+.footer_a:hover {
+    /*Typography stuff*/
+    color: black;
+    border-bottom-color: black;
+}
+
+.footer_a:hover::after {
+    /*Box model stuff*/
+    width: 100%;
+}
+
+\
+ footer .container a {
+    margin-left: 10px;
+}
+
+.footerspan {
+    color: #757575;
+    font-size: 12px;
+    margin: 0;
+}
+
+.footer_a_span {
+    text-decoration: solid black;
+}
+
+.footer_a_span:hover {
+    color: black;
+}
+
+.hr2 {
+    width: 1040px;
+}
+
+
+.footer_a2-2,.footer_a2-3{
+    margin-left:30px;
+}
+
+.footerspan{
+    margin-right:30px;
+}
